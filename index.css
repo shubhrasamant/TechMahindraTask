@@ -1,0 +1,38 @@
+#mainDiv {
+	margin: 0px 20px 20px 10px;
+	border: 1px solid #CCC;
+	padding: 0px 20px 10px;
+}
+
+.controlsDiv, h1 {
+	text-align: center;
+}
+
+.chooseBar, .buttonsDiv, .buttonsDiv > button {
+	display: inline-block;
+}
+
+.chooseBar {
+	margin-bottom: 10px;
+}
+
+.buttonsDiv > button{
+	margin: 5px 10px;
+	width: 50px;
+}
+
+.ui-progressbar {
+	position: relative;
+}
+
+.progressText {
+	width: 100%;
+	position: absolute;
+	line-height: 33px;
+	text-align: center;
+	font-size: 12px;
+}
+.overLimitClass {
+	background: indianred;
+	border: 1px solid indianred;
+}
